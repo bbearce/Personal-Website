@@ -121,57 +121,6 @@
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
             <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-            <div class="chart-container" style="display: table-cell; position: relative; height:20vh; width:40vw">
-            <canvas id="programmingLanguages"></canvas>
-            </div>
-
-
-            <script>
-            var ctx = document.getElementById("programmingLanguages");
-            var myChart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ["Python (3 yrs)", "R (4 yrs)", "SQL (3 yrs)", "HTML\\CSS (1 yr)", "JavaScript (1 yr)"],
-                    datasets: [{
-                        label: 'Mastery Relative to Expert Level',
-                        data: [16, 16, 12, 8, 8, 20],
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.2)',
-                            'rgba(54, 162, 235, 0.2)',
-                            'rgba(255, 206, 86, 0.2)',
-                            'rgba(75, 192, 192, 0.2)',
-                            'rgba(153, 102, 255, 0.2)',
-                            'rgba(153, 102, 255, 0.0)'
-                        ],
-                        borderColor: [
-                            'rgba(255,99,132,1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 206, 86, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(153, 102, 255, 1)',
-                            'rgba(153, 102, 255, 0.0)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    legend: {display: false },
-                    title: {
-                      display: true,
-                      text: 'Skill Relative to Mastery (20)'
-                    },
-                    scales: {
-                        yAxes: [{
-                            ticks: {
-                                beginAtZero:true
-                            }
-                        }]
-                    }
-                }
-            });
-            </script> 
-
-            <br><br>
             
             <ul class="list-inline list-icons">
               
@@ -203,53 +152,6 @@
                 <i class="devicon-git-plain"></i>
               </li>
 
-            <div class="chart-container" style="display: table-cell; position: relative; height:20vh; width:40vw">
-            <canvas id="platforms"></canvas>
-            </div>
-
-
-            <script>
-            var ctx = document.getElementById("platforms");
-            var myChart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ["Heroku", "Wordpress", "WIX", "Squarespace"],
-                    datasets: [{
-                        label: 'Mastery Relative to Expert Level',
-                        data: [16, 12, 10, 8],
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.2)',
-                            'rgba(54, 162, 235, 0.2)',
-                            'rgba(255, 206, 86, 0.2)',
-                            'rgba(75, 192, 192, 0.2)',
-                            'rgba(153, 102, 255, 0.0)'
-                        ],
-                        borderColor: [
-                            'rgba(255,99,132,1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 206, 86, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(153, 102, 255, 0.0)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    legend: {display: false },
-                    title: {
-                      display: true,
-                      text: 'Skill Relative to Mastery (20)'
-                    },
-                    scales: {
-                        yAxes: [{
-                            ticks: {
-                                beginAtZero:true
-                            }
-                        }]
-                    }
-                }
-            });
-            </script> 
 
             <br>
 
